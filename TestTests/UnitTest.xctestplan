@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "DAA6FDC9-58E6-44EE-B7F4-40E36148161E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    },
+    {
+      "id" : "F70AD179-2701-421F-B871-C44A9FBD0205",
+      "name" : "Configuration 2",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Test.xcodeproj",
+        "identifier" : "86AB6F2F257DFAD900A711C6",
+        "name" : "TestTests"
+      }
+    }
+  ],
+  "version" : 1
+}

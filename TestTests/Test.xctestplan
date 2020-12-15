@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "3FDC4966-F6D3-42D2-835E-2E4634F983B7",
+      "name" : "Japanese",
+      "options" : {
+        "language" : "ja",
+        "region" : "JP",
+        "testExecutionOrdering" : "random"
+      }
+    },
+    {
+      "id" : "40E2C5E5-7F98-40D6-A049-7A0065D2E367",
+      "name" : "English",
+      "options" : {
+        "language" : "en"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Test.xcodeproj",
+      "identifier" : "86AB6F19257DFAD600A711C6",
+      "name" : "Test"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Test.xcodeproj",
+        "identifier" : "86AB6F2F257DFAD900A711C6",
+        "name" : "TestTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:Test.xcodeproj",
+        "identifier" : "86AB6F3A257DFAD900A711C6",
+        "name" : "TestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
