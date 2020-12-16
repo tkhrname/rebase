@@ -25,6 +25,12 @@ func asyncString(completion: ((String) -> ())?) {
     }
 }
 
+func addx(_ a: Int) -> ((Int) -> Int) {
+    return { (b: Int) -> Int in
+        return a + b
+    }
+}
+
 enum OperationError: Error {
     case divisionByZero
 }
@@ -48,6 +54,7 @@ class TestTests: XCTestCase {
         // 全体的な初期化
         // 最初のテストメソッドが実行される前に呼び出される
         super.setUp()
+        print(addx(2)(3))
         print("$ override class func setUp()") // 1
     }
 
